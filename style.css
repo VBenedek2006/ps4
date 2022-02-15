@@ -1,0 +1,62 @@
+body {
+    background-image: url(https://www.gamer365.hu/~fs/article/00/05/pe/33630.jpeg?fbclid=IwAR3V_4YleXpmY3LzqtZ6v_-0i2iWK692R8b5zvzAz4wiuJWjmPbjia2VJC8);
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    background-size: cover;
+  }
+  
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #0516ffbc;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: #fc010e;
+    color: rgb(218, 15, 15);
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: rgb(248, 4, 4);
+    color: rgba(41, 40, 40, 0.801);
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+ 
+  footer {
+   text-align: center;
+   padding: 3px;
+   background-color: #fc010e;
+ }
