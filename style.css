@@ -23,13 +23,13 @@ body {
   }
    
   .sidebar a.active {
-    background-color: #fc010e;
-    color: rgb(218, 15, 15);
+    background-color: #0400eb;
+    color: rgb(0, 204, 255);
   }
   
   .sidebar a:hover:not(.active) {
-    background-color: rgb(248, 4, 4);
-    color: rgba(41, 40, 40, 0.801);
+    background-color: rgb(4, 220, 248);
+    color: rgba(255, 255, 255, 0.801);
   }
   
   div.content {
@@ -58,5 +58,5 @@ body {
   footer {
    text-align: center;
    padding: 3px;
-   background-color: #fc010e;
+   background-color: #00e1ff;
  }
